@@ -11,7 +11,7 @@ public class Druide extends Mage
 		nom = "Un_Druide";
 		sagesse = (int)getRandomInteger(minSa, maxSa);
 		console("");
-		console("Un druide crée");
+		console("Un druide cree");
 		console("***************");
 	}
 	
@@ -20,7 +20,7 @@ public class Druide extends Mage
 		super(nom);
 		sagesse = (int)getRandomInteger(minSa, maxSa);
 		console("");
-		console("Un druide crée");
+		console("Un druide cree");
 		console("***************");
 	}
 	
@@ -29,7 +29,7 @@ public class Druide extends Mage
 		super(nom, pv, px, pm);
 		sagesse = sa;
 		console("");
-		console("Un druide crée");
+		console("Un druide cree");
 		console("***************");
 	}
 
@@ -53,7 +53,7 @@ public class Druide extends Mage
 	{
 		console("Nom : " + nom );
 		console("Vie : " + pv );
-		console("Expérience : " + px );
+		console("Experience : " + px );
 		console("Mana : " + pm );
 		console("Sagesse : " + sagesse );
 		console("");

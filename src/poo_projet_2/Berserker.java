@@ -11,7 +11,7 @@ public class Berserker extends Guerrier
 		nom = "Un_Berserkerr";
 		fureur = (int)getRandomInteger(minFu, maxFu);
 		console("");
-		console("Un berserker crée");
+		console("Un berserker cree");
 		console("***************");
 	}
 	
@@ -20,7 +20,7 @@ public class Berserker extends Guerrier
 		super(nom);
 		fureur = (int)getRandomInteger(minFu, maxFu);
 		console("");
-		console("Un berserker crée");
+		console("Un berserker cree");
 		console("***************");
 	}
 	
@@ -29,7 +29,7 @@ public class Berserker extends Guerrier
 		super(nom, pv, px, fo);
 		fureur = fu;
 		console("");
-		console("Un berserker crée");
+		console("Un berserker cree");
 		console("***************");
 	}
 	
@@ -53,7 +53,7 @@ public class Berserker extends Guerrier
 	{
 		console("Nom : " + nom );
 		console("Vie : " + pv );
-		console("Expérience : " + px );
+		console("Experience : " + px );
 		console("Force : " + force );
 		console("Fureur : " + fureur );
 		console("");

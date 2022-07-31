@@ -51,7 +51,7 @@ public class Mage extends Personnage
 		if(getPv() < 300)
 		{
 			setPv(getPv()+10);
-			console(getNom()+" utilise un sort de soin et récupère 10 PV.");
+			console(getNom()+" utilise un sort de soin et recupere 10 PV.");
 		}
 	}
 	
@@ -60,7 +60,7 @@ public class Mage extends Personnage
 		console("");
 		console("Nom : " + nom );
 		console("Vie : " + pv );
-		console("Expérience : " + px );
+		console("Experience : " + px );
 		console("Mana : " + pm );
 		console("");
 		console("------------------------------------");

@@ -47,7 +47,7 @@ public class Guerrier extends Personnage
 		if(getPv() < 300)
 		{
 			setPv(getPv()+10);
-			console(getNom()+" utilise son bouclier et récupère 10 PV.");
+			console(getNom()+" utilise son bouclier et recupere 10 PV.");
 		}
 	}
 	
@@ -56,7 +56,7 @@ public class Guerrier extends Personnage
 		console("");
 		console("Nom : " + nom );
 		console("Vie : " + pv );
-		console("Expérience : " + px );
+		console("Experience : " + px );
 		console("Force : " + force );
 		console("");
 		console("------------------------------------");

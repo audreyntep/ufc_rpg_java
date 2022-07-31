@@ -29,7 +29,7 @@ public class Main extends Utilitaire
 		console("  /________/  /_/ /__/    /_/   /_______/  /_/");
 		console("");
 		
-		//CREATION DES PERSONNAGES -> 1.instanciation, 2.affichage, 3.ajout à la collection
+		//CREATION DES PERSONNAGES -> 1.instanciation, 2.affichage, 3.ajout a la collection
 		
 		Druide panoramix = new Druide("Panoramix");
 		panoramix.identite();

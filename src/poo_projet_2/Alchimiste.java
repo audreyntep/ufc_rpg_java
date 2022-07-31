@@ -11,7 +11,7 @@ public class Alchimiste extends Mage
 		nom = "Un_Alchimiste";
 		chimie = (int)getRandomInteger(minChi, maxChi);
 		console("");
-		console("Un alchimiste crée");
+		console("Un alchimiste cree");
 		console("***************");
 	}
 	
@@ -20,7 +20,7 @@ public class Alchimiste extends Mage
 		super(nom);
 		chimie = (int)getRandomInteger(minChi, maxChi);
 		console("");
-		console("Un alchimiste crée");
+		console("Un alchimiste cree");
 		console("***************");
 	}
 	
@@ -29,7 +29,7 @@ public class Alchimiste extends Mage
 		super(nom, pv, px, pm);
 		chimie = chi;
 		console("");
-		console("Un alchimiste crée");
+		console("Un alchimiste cree");
 		console("***************");
 	}
 	
@@ -53,7 +53,7 @@ public class Alchimiste extends Mage
 	{
 		console("Nom : " + nom );
 		console("Vie : " + pv );
-		console("Expérience : " + px );
+		console("Experience : " + px );
 		console("Mana : " + pm );
 		console("Chimie : " + chimie );
 		console("");

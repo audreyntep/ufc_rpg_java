@@ -77,7 +77,7 @@ public class Personnage extends Utilitaire
 		console("");
 	}
 	
-	//Mise à jour des PV
+	//Mise a jour des PV
 	public void refreshPv(int pv)
 	{
 		if(getPv() + pv > maxPv) 
@@ -95,7 +95,7 @@ public class Personnage extends Utilitaire
 	}
 	
 	
-	//Mise à jour des PX en fonction des PV
+	//Mise a jour des PX en fonction des PV
 	public void refreshPx()
 	{
 		setPx( getPx() + ((getPv()*10)/100) );

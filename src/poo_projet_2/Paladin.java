@@ -11,7 +11,7 @@ public class Paladin extends Guerrier
 		nom = "Un_Paladin";
 		charisme = (int)getRandomInteger(minCha, maxCha);
 		console("");
-		console("Un paladin crée");
+		console("Un paladin cree");
 		console("***************");
 	}
 	
@@ -20,7 +20,7 @@ public class Paladin extends Guerrier
 		super(nom);
 		charisme = (int)getRandomInteger(minCha, maxCha);
 		console("");
-		console("Un paladin crée");
+		console("Un paladin cree");
 		console("***************");
 	}
 	
@@ -29,7 +29,7 @@ public class Paladin extends Guerrier
 		super(nom, pv, px, fo);
 		charisme = cha;
 		console("");
-		console("Un paladin crée");
+		console("Un paladin cree");
 		console("***************");
 	}
 	
@@ -53,7 +53,7 @@ public class Paladin extends Guerrier
 	{
 		console("Nom : " + nom );
 		console("Vie : " + pv );
-		console("Expérience : " + px );
+		console("Experience : " + px );
 		console("Force : " + force );
 		console("Charisme : " + charisme );
 		console("");

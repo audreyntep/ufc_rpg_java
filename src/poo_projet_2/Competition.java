@@ -16,7 +16,7 @@ public class Competition extends Utilitaire
 	{
 		combattants = list;
 		try {
-			//CREATION DE LA COMPETITION -> itération jusqu'à ce qu'il ne reste qu'un ou aucun objet dans la collection
+			//CREATION DE LA COMPETITION -> iteration jusqu'a ce qu'il ne reste qu'un ou aucun objet dans la collection
 			console("");
 			console("************************************");
 			console("LANCEMENT DE LA COMPETITION");
@@ -42,7 +42,7 @@ public class Competition extends Utilitaire
 	//METHODE POUR LANCER UNE SERIE DE COMBATS
 	public void lancerCompetition() 
 	{
-		//Tant que le nombre de combattants de la collection est supérieur à 1
+		//Tant que le nombre de combattants de la collection est superieur a 1
 		while(combattants.size() > 1)
 		{
 			i++;
@@ -53,7 +53,7 @@ public class Competition extends Utilitaire
 			console("Le grand Vainqueur est "+ combattants.get(0).getClass().getSimpleName() +" "+ combattants.get(0).getNom()+" !" );
 			combattants.get(0).identite();
 		}
-		//Si le nombre de combattants de la collection est égal à 0
+		//Si le nombre de combattants de la collection est egal a 0
 		else
 		{
 			console("Tout les combattants sont morts...");
@@ -63,7 +63,7 @@ public class Competition extends Utilitaire
 	//METHODE POUR CREER UN COMBAT
 	public void lancerCombat() 
 	{	
-		//Selection aléatoire de 2 combattants
+		//Selection aleatoire de 2 combattants
 		Personnage combattant1 = choisirCombattant();
 		Personnage combattant2;
 		do{
@@ -78,10 +78,10 @@ public class Competition extends Utilitaire
 		combat.getPerdant().finalize();
 		console("Le vainqueur du combat est "+combat.getVainqueur().getNom()+".");
 		
-		//On verifie que les pv du vainqueur ne soient pas à 0
+		//On verifie que les pv du vainqueur ne soient pas a 0
 		if(combat.getVainqueur().getPv() == 0)
 		{
-			console("Mais "+combat.getVainqueur().getNom() +" ne survit pas à ses bléssures...");
+			console("Mais "+combat.getVainqueur().getNom() +" ne survit pas a ses blessures...");
 			combattants.remove(combat.getVainqueur());
 			combat.getVainqueur().finalize();
 		}
@@ -99,12 +99,12 @@ public class Competition extends Utilitaire
 	//METHODE POUR AFFICHER LA LISTE DES COMBATTANTS
 	public void afficherListCombattants()
 	{
-		//Déclaration d'un itérateur pour la ArrayList
+		//Dï¿½claration d'un itï¿½rateur pour la ArrayList
 		ListIterator<Personnage> li = combattants.listIterator();
 		int j = 0;
 		console("");
 		console("Liste des combattants : ");
-		//Affichage de chacun des objets de la collection par itération
+		//Affichage de chacun des objets de la collection par itï¿½ration
 		while(li.hasNext())
 		{
 			j++;
